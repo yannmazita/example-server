@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "example-server"
+version = "0.1.0"
+description = "Wagtail/Django/Daphne educational project"
+authors = ["Yann Mazita <dev.mazita@gmail.com>"]
+license = "GPL3.0-or-later"
+readme = "README.md"
+packages = [{include = "example_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+wagtail = "^4.2.2"
+python-decouple = "^3.8"
+psycopg2-binary = "^2.9.6"
+whitenoise = "^6.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
