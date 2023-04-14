@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["127.0.0.1", "localhost", "192.168.2.3", "192.168.2.4"]
 
@@ -145,7 +145,7 @@ MEDIA_URL = "media/"
 
 # Wagtail
 WAGTAIL_SITE_NAME = "Concept Solution Project website"
-WAGTAILADMIN_BASE_URL = "admin/"
+WAGTAILADMIN_BASE_URL = "http://www.enfip.dgfip"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
