@@ -26,7 +26,7 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "192.168.2.2", "192.168.2.3", "192.168.2.4"]
+ALLOWED_HOSTS = ["192.168.2.2", "192.168.2.3", "192.168.2.4"]
 
 # Trust X-Forwarded headers from load balancer
 USE_X_FORWARDED_HOST = True
